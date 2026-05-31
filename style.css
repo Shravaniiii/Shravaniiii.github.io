@@ -757,6 +757,47 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 .cert-item:hover { border-color: var(--purple); color: var(--text); }
 .cert-item svg { color: var(--amber); flex-shrink: 0; }
 
+.cert-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 20px; }
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.cert-card:hover {
+  border-color: var(--purple);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.12);
+}
+
+.cert-card-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--cert-color) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--cert-color) 30%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cert-color);
+}
+
+.cert-card-body { flex: 1; min-width: 0; }
+.cert-card-issuer { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 3px; }
+.cert-card-name { font-size: 0.9rem; font-weight: 600; color: var(--text); line-height: 1.35; margin-bottom: 4px; }
+.cert-card-date { font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-mono); }
+.cert-card-arrow { flex-shrink: 0; color: var(--text-muted); transition: color 0.2s, transform 0.2s; }
+.cert-card:hover .cert-card-arrow { color: var(--purple); transform: translate(2px, -2px); }
+
 /* ============================
    Contact
    ============================ */
