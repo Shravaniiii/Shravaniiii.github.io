@@ -1,0 +1,74 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bedA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="bedB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#d8b4fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="420" rx="24" fill="#0b1220"/>
+  <text x="40" y="42" fill="#E2E8F0" font-size="24" font-family="Arial, sans-serif" font-weight="700">Bedroom Applications by Age Group</text>
+  <text x="40" y="68" fill="#94A3B8" font-size="12" font-family="Arial, sans-serif">Application patterns across bedroom counts for Under 55 vs 55+ applicants</text>
+
+  <g opacity="0.7" stroke="#334155" stroke-width="1">
+    <line x1="120" y1="330" x2="860" y2="330"/>
+    <line x1="120" y1="280" x2="860" y2="280"/>
+    <line x1="120" y1="230" x2="860" y2="230"/>
+    <line x1="120" y1="180" x2="860" y2="180"/>
+    <line x1="120" y1="130" x2="860" y2="130"/>
+    <line x1="120" y1="80" x2="860" y2="80"/>
+  </g>
+
+  <g fill="#94A3B8" font-size="11" font-family="Arial, sans-serif">
+    <text x="125" y="350">Studio</text>
+    <text x="220" y="350">1BR</text>
+    <text x="315" y="350">2BR</text>
+    <text x="410" y="350">3BR</text>
+    <text x="505" y="350">4BR</text>
+    <text x="600" y="350">5BR+</text>
+    <text x="695" y="350">Other</text>
+  </g>
+
+  <g fill="#94A3B8" font-size="11" font-family="Arial, sans-serif">
+    <text x="90" y="334">0</text>
+    <text x="82" y="284">20</text>
+    <text x="82" y="234">40</text>
+    <text x="82" y="184">60</text>
+    <text x="82" y="134">80</text>
+    <text x="72" y="84">100</text>
+  </g>
+
+  <g>
+    <rect x="140" y="280" width="26" height="50" rx="6" fill="url(#bedA)"/>
+    <rect x="140" y="240" width="26" height="40" rx="6" fill="url(#bedB)"/>
+
+    <rect x="235" y="160" width="26" height="170" rx="6" fill="url(#bedA)"/>
+    <rect x="235" y="120" width="26" height="40" rx="6" fill="url(#bedB)"/>
+
+    <rect x="330" y="110" width="26" height="220" rx="6" fill="url(#bedA)"/>
+    <rect x="330" y="90" width="26" height="20" rx="6" fill="url(#bedB)"/>
+
+    <rect x="425" y="200" width="26" height="130" rx="6" fill="url(#bedA)"/>
+    <rect x="425" y="235" width="26" height="95" rx="6" fill="url(#bedB)"/>
+
+    <rect x="520" y="300" width="26" height="30" rx="6" fill="url(#bedA)"/>
+    <rect x="520" y="295" width="26" height="5" rx="6" fill="url(#bedB)"/>
+
+    <rect x="615" y="310" width="26" height="20" rx="6" fill="url(#bedA)"/>
+    <rect x="615" y="305" width="26" height="5" rx="6" fill="url(#bedB)"/>
+
+    <rect x="710" y="315" width="26" height="15" rx="6" fill="url(#bedA)"/>
+    <rect x="710" y="310" width="26" height="5" rx="6" fill="url(#bedB)"/>
+  </g>
+
+  <g>
+    <rect x="120" y="360" width="14" height="14" rx="4" fill="url(#bedA)"/>
+    <text x="140" y="372" fill="#E2E8F0" font-size="12" font-family="Arial, sans-serif">Under 55</text>
+
+    <rect x="250" y="360" width="14" height="14" rx="4" fill="url(#bedB)"/>
+    <text x="270" y="372" fill="#E2E8F0" font-size="12" font-family="Arial, sans-serif">55+</text>
+  </g>
+</svg>

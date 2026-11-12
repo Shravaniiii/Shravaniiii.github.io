@@ -1,0 +1,74 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ageBarA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="ageBarB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="420" rx="24" fill="#0b1220"/>
+  <text x="40" y="42" fill="#E2E8F0" font-size="24" font-family="Arial, sans-serif" font-weight="700">Where Different Age Groups Apply</text>
+  <text x="40" y="68" fill="#94A3B8" font-size="12" font-family="Arial, sans-serif">Comparison of application concentrations by town/property and age group</text>
+
+  <g opacity="0.7" stroke="#334155" stroke-width="1">
+    <line x1="120" y1="330" x2="860" y2="330"/>
+    <line x1="120" y1="280" x2="860" y2="280"/>
+    <line x1="120" y1="230" x2="860" y2="230"/>
+    <line x1="120" y1="180" x2="860" y2="180"/>
+    <line x1="120" y1="130" x2="860" y2="130"/>
+    <line x1="120" y1="80" x2="860" y2="80"/>
+  </g>
+
+  <g fill="#94A3B8" font-size="11" font-family="Arial, sans-serif">
+    <text x="130" y="350">North Andover</text>
+    <text x="262" y="350">Andover</text>
+    <text x="360" y="350">Billerica</text>
+    <text x="477" y="350">Canton</text>
+    <text x="564" y="350">Medway</text>
+    <text x="660" y="350">Whitman</text>
+    <text x="752" y="350">Sturbridge</text>
+  </g>
+
+  <g fill="#94A3B8" font-size="11" font-family="Arial, sans-serif">
+    <text x="88" y="334">0</text>
+    <text x="82" y="284">20</text>
+    <text x="82" y="234">40</text>
+    <text x="82" y="184">60</text>
+    <text x="82" y="134">80</text>
+    <text x="72" y="84">100</text>
+  </g>
+
+  <g>
+    <rect x="140" y="200" width="22" height="130" rx="6" fill="url(#ageBarA)"/>
+    <rect x="140" y="150" width="22" height="50" rx="6" fill="url(#ageBarB)"/>
+
+    <rect x="270" y="230" width="22" height="100" rx="6" fill="url(#ageBarA)"/>
+    <rect x="270" y="185" width="22" height="45" rx="6" fill="url(#ageBarB)"/>
+
+    <rect x="372" y="260" width="22" height="70" rx="6" fill="url(#ageBarA)"/>
+    <rect x="372" y="230" width="22" height="30" rx="6" fill="url(#ageBarB)"/>
+
+    <rect x="490" y="290" width="22" height="40" rx="6" fill="url(#ageBarA)"/>
+    <rect x="490" y="260" width="22" height="30" rx="6" fill="url(#ageBarB)"/>
+
+    <rect x="585" y="300" width="22" height="30" rx="6" fill="url(#ageBarA)"/>
+    <rect x="585" y="280" width="22" height="20" rx="6" fill="url(#ageBarB)"/>
+
+    <rect x="685" y="310" width="22" height="20" rx="6" fill="url(#ageBarA)"/>
+    <rect x="685" y="295" width="22" height="15" rx="6" fill="url(#ageBarB)"/>
+
+    <rect x="780" y="320" width="22" height="10" rx="6" fill="url(#ageBarA)"/>
+    <rect x="780" y="307" width="22" height="13" rx="6" fill="url(#ageBarB)"/>
+  </g>
+
+  <g>
+    <rect x="120" y="360" width="14" height="14" rx="4" fill="url(#ageBarA)"/>
+    <text x="140" y="372" fill="#E2E8F0" font-size="12" font-family="Arial, sans-serif">Under 55</text>
+
+    <rect x="250" y="360" width="14" height="14" rx="4" fill="url(#ageBarB)"/>
+    <text x="270" y="372" fill="#E2E8F0" font-size="12" font-family="Arial, sans-serif">55+</text>
+  </g>
+</svg>

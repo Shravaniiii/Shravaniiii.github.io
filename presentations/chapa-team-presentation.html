@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHAPA Affordable Housing Analysis | Team Presentation</title>
+  <style>
+    :root {
+      --bg: #07111d;
+      --panel: #0f172a;
+      --card: #111827;
+      --text: #e5eef9;
+      --muted: #9fb3c8;
+      --accent: #22d3ee;
+      --accent-2: #a855f7;
+      --line: rgba(255,255,255,0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #07111d 0%, #0d1c2a 100%);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+    }
+    .wrap {
+      width: min(980px, 100%);
+      background: rgba(15, 23, 42, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.35);
+      overflow: hidden;
+    }
+    .header {
+      background: linear-gradient(135deg, rgba(34,211,238,0.15), rgba(168,85,247,0.18));
+      border-bottom: 1px solid var(--line);
+      padding: 28px 32px;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 11px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    h1 {
+      margin: 12px 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .content {
+      padding: 28px 32px 36px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 8px;
+    }
+    .card {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+      border-radius: 16px;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 12px;
+    }
+    p, li {
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 0.98rem;
+    }
+    ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(34,211,238,0.12);
+      border: 1px solid rgba(34,211,238,0.25);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 6px 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    .footer {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      body { padding: 20px; }
+      .header, .content { padding-left: 20px; padding-right: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="eyebrow">CHAPA • Demo Day</div>
+      <h1>Affordable Housing Applications</h1>
+      <p class="subtitle">Geographic, demographic, and pricing patterns in affordable-homeownership applications</p>
+    </div>
+    <div class="content">
+      <div class="grid">
+        <div class="card">
+          <div class="badge">Overview</div>
+          <h2>What the team studied</h2>
+          <p>The project explored how applications varied across properties, towns, age groups, bedroom types, and applicant demographics in the Massachusetts affordable housing market.</p>
+        </div>
+        <div class="card">
+          <div class="badge">My role</div>
+          <h2>My contribution</h2>
+          <p>I focused on data cleaning and exploratory data analysis, including combining the application datasets and examining application patterns across age, household size, bedroom count, and location.</p>
+        </div>
+        <div class="card">
+          <div class="badge">Questions</div>
+          <h2>Client questions addressed</h2>
+          <ul>
+            <li>Did application patterns differ by age group?</li>
+            <li>Did applicants request different bedroom types by age or household size?</li>
+            <li>How did demand vary across towns and properties?</li>
+            <li>How did applicant composition vary by property and location?</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">Findings</div>
+          <h2>What the EDA showed</h2>
+          <p>Application patterns differed meaningfully by age and housing characteristics. The distributions suggested that age-restricted and non-age-restricted properties were attracting different applicant profiles, with visible variation in town-level demand and bedroom type demand.</p>
+        </div>
+      </div>
+      <div class="footer">
+        My work focused on data cleaning and EDA; other team members developed the Bayesian model and interactive map for the project deliverable.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
