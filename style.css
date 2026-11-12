@@ -935,16 +935,19 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
    CHAPA Styles
    ============================ */
 .card-summary {
-  padding: 20px 24px 0;
+  display: none;
+}
+
+.card-details-inner {
   display: grid;
-  gap: 12px;
+  gap: 16px;
 }
 
 .summary-block {
   background: rgba(255,255,255,0.02);
   border: 1px solid var(--card-border);
   border-radius: 12px;
-  padding: 14px 16px;
+  padding: 12px 14px;
 }
 
 .summary-block.highlight {
@@ -953,25 +956,24 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 }
 
 .summary-label {
-  font-size: 0.7rem;
+  font-size: 0.66rem;
   font-family: var(--font-mono);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-dim);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .summary-copy {
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 0.82rem;
+  line-height: 1.55;
   color: var(--text-muted);
 }
 
 .analysis-grid {
-  padding: 20px 24px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 12px;
 }
 
 .chart-panel {
@@ -984,16 +986,16 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 .chart-panel img {
   display: block;
   width: 100%;
-  height: 230px;
+  height: 180px;
   object-fit: cover;
   border-bottom: 1px solid var(--card-border);
   background: #0f172a;
 }
 
 .chart-panel figcaption {
-  padding: 12px 14px 14px;
-  font-size: 0.8rem;
-  line-height: 1.6;
+  padding: 9px 10px 10px;
+  font-size: 0.74rem;
+  line-height: 1.5;
   color: var(--text-muted);
 }
 
@@ -1004,16 +1006,16 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 }
 
 .card-cta-wrap {
-  padding: 20px 24px 12px;
+  padding-top: 4px;
 }
 
 .card-primary-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 18px;
+  padding: 8px 14px;
   border-radius: 10px;
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 700;
   font-family: var(--font-mono);
   letter-spacing: 0.04em;
@@ -1032,5 +1034,9 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 @media (max-width: 820px) {
   .analysis-grid {
     grid-template-columns: 1fr;
+  }
+
+  .chart-panel img {
+    height: 170px;
   }
 }
